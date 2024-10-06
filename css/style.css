@@ -17,7 +17,7 @@ body{
 }
 @media (max-width:600px){
     body{
-        font-size: 13px;
+        font-size: 12px;
     }
 }
 header,.black,.web,.music,.services h2,.project,.skills,footer{
@@ -231,17 +231,17 @@ h1 {
     }
 }
 .project-cards{
-    aspect-ratio:16/11;
-    width: 40%;
-    margin-bottom: 10%;
-    box-shadow: 10px 10px 30px 10px rgba(0, 0, 0, 0.589);
+    width: 300px;
+    max-width: 90%;
+    aspect-ratio:16/10;
+    margin-bottom: 30px;
     border-radius: 15px;
     background-color: rgba(240, 248, 255, 0.521);
     display: flex;
     justify-content: center;
     align-items: center;
-    align-self: start;
     overflow: hidden;
+    box-shadow: 10px 10px 30px 10px rgba(0, 0, 0, 0.589);
     position: relative;
 }
 .load-animation::after{
@@ -287,6 +287,14 @@ h1 {
 .skil{
     width: 55%;
     color: aliceblue;
+}
+@media (max-width:600px){
+    .skills img{
+        display: none;
+    }
+    .skil{
+        width: 100%;
+    }
 }
 .sk{
     margin: 10px 0px;
