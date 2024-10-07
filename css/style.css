@@ -134,6 +134,14 @@ header{
         }
     }
 }
+@media (max-width:600px){
+    .black span{
+        font-size:2em;
+    }
+    .black a{
+        font-size: .7em;
+    }
+}
 .services{
     width: 100%;
     min-height: 100vh;
@@ -186,6 +194,16 @@ h1 {
     color: white;
     .description{
         color: rgba(255, 255, 255, 0.856);
+    }
+}
+@media (max-width:600px){
+    .card{
+        width: 90%;
+        margin: auto;
+        aspect-ratio: 1/1;
+        h3{
+            font-size: 1em;
+        }
     }
 }
 .project{
@@ -330,6 +348,11 @@ h1 {
     flex-wrap: wrap;
     box-shadow: 10px 10px 30px 10px rgba(0, 0, 0, 0.589);
     border-radius: 15px;
+}
+@media (max-width:600px){
+    .contact{
+        width: 90%;
+    }
 }
 .contact-method a{
     text-decoration: none;
